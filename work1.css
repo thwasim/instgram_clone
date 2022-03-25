@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+}
+body{
+    width: 100%;
+    background-color: #fafafa;
+    position: relative;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.instgram-photo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid  #0c0c0c;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.instgram-photo-2{
+    width: 70%;
+    max-width:-15px;
+    height: 100%;
+    display: 2px;
+    justify-content: first space-between;
+    align-items:center;
+}
+.brand-img{
+    height: 100%;
+    margin-top: 5px;
+}
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 25px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    color: #0c0c0c;
+    text-align: center;
+    text-transform: capitalize;
+}
+.home-semples{
+    height: 25px;
+    position: static;
+    display: flex;
+    float:right;
+    cursor: pointer;
+ 
+  }
+  /* icons disttancs */
+
+.icon{
+    height: 100%;
+    cursor:all-scroll;
+    margin:  15px;
+    display: -moz-grid-line;
+    flex-flow: column-reverse;
+    cursor: pointer;
+
+}
+
+.profil{
+    border-radius:50%;
+    height: 40px;
+
+}
+.main{
+    width: 100%;
+    padding: 40px  0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wrapper{
+    width: 70%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 30px;
+
+}
+
+.story{
+    width: 120%;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid  #dbdbdb;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+/* story box scrolling */
+.story::-webkit-scrollbar{
+    display: none;
+
+}
+.card{
+    flex: 0 0 auto;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+
+}
+.profil-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 10rem;
+    overflow: hidden;
+    border: 3px solid #C13584;
+
+}
+.profil-pic img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px black;
+}
+.story{
+    width: 100x;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.5);
+  
+}
+.stroy1{ 
+    text-align:start ;
+    height: 10px;
+    float: left;
+
+}
+
+
+.option{
+    margin-left: auto;
+}
+.message{
+    width: 25%;
+    height: 500px;
+    background-color:#fff;
+    border: #dbdbdb;
+    border: 3px solid #dbdbdb ;
+    position: fixed;
+    right: 120px;
+    top: 95px;
+    /* padding: 10px; */
+    
+}
+.message-profil{
+    width: 100%;
+    height: 70px;
+    /* background-color: #C13584; */
+
+}
+.profil-image{
+    /* width: 33%; */
+    height: 70px;
+    /* background-color:aqua ; */
+    float: left;
+    padding: 10px;
+}
+.profil-name{
+    /* width: 33%; */
+    height: 70px;
+    /* background-color: chartreuse; */
+    float: left;
+    padding: 15px;
+
+}
+.profil-switch{
+    /* width: 34%; */
+    height: 70px;
+    /* background-color: coral; */
+    float: left;
+    margin-left: 15px;
+    padding: 20px;
+}
+.write{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    /* border: 1px solid #dbdbdb; */
+}
+.follow-full{
+    width: 100%;
+    height: 52px;
+    /* background-color: #C13584; */
+    margin-top: 24px;
+    display: flex;
+
+} 
+.follow-image{
+    width: 20%;
+    height: 52px;
+    /* background-color: #0c0c0c; */
+}
+.follow-write{
+    width:50% ;
+    height: 52px;
+    /* background-color: beige; */
+    float: left;
+   
+    
+}
+.follow{
+    width: 34%;
+    height: 52px;
+    float: left;
+    /* background-color: cyan; */
+    padding: 10px;
+    margin: 10px;
+    
+}
+.follow-me{
+    width: 40px;
+    height: 40px;
+    border-radius: 10rem;
+    overflow: hidden;
+   
+    
+}
+
+
+.post-id-details {
+    padding: 7px;
+    border: 3px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+}
+
+/* story image rounding */
+
+.post-profile-pic {
+    width: 50px;  
+    height: 50px;
+    border-radius: 50%;  
+}
+.save-icone{
+    margin-top: 0%;
+    margin-left: 650px;
+}
+.icon-post {
+    margin-left: auto;
+}
+.post-image{
+        width: 680px;
+        height: 500px;
+        
+        object-fit: cover;
+}
+.post{
+    
+    width: 680px;
+}
+.first-name{
+    margin-left: 10px;
+}
+
+
+    
+
+
